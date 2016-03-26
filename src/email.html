@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Contactformulier | {{ name_student }}</title>
+    <link rel="stylesheet" href="email.css">
+</head>
+
+<body bgcolor="#f6f6f6">
+
+<!-- body -->
+<table class="body-wrap">
+    <tr>
+        <td></td>
+        <td class="container" bgcolor="#FFFFFF">
+
+            <!-- content -->
+            <div class="content">
+                <table>
+                    <tr>
+                        <td>
+                            <p>Er is een vraag binnengekomen via www.debijlesformule.nl</p>
+                            <table>
+                                <tr>
+                                    <td>Naam</td>
+                                    <td>{{ name }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Email adres</td>
+                                    <td>{{ email }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Telefoon nummer</td>
+                                    <td>{{ phone }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Opleiding</td>
+                                    <td>{{ level }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Jaar</td>
+                                    <td>{{ year }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Vak</td>
+                                    <td>{{ subject }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Vraag/bericht</td>
+                                    <td>{{ message }}</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- /content -->
+
+        </td>
+        <td></td>
+    </tr>
+</table>
+<!-- /body -->
+
+<!-- footer -->
+<table class="footer-wrap">
+    <tr>
+        <td></td>
+        <td class="container">
+
+            <!-- content -->
+            <div class="content">
+                <table>
+                    <tr>
+                        <td align="center">
+                            <p>Verzonden vanaf www.debijlesformule.nl</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- /content -->
+
+        </td>
+        <td></td>
+    </tr>
+</table>
+<!-- /footer -->
+
+</body>
+</html>
